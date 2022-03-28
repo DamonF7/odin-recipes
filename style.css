@@ -1,0 +1,22 @@
+html{
+    font-family:Helvetica, sans-serif;
+    background-color:#222222;
+}
+h1.home-head{
+    text-align: center;
+    color:#382dff;
+}
+a{
+    color:#ad17ad;
+}
+.recipe-selector{
+    text-align: center;
+    list-style-type: none;
+    font-size:18px;
+    line-height:40px;
+}
+img{
+    width: 100%;
+    align-self: center;
+}
+/* fixing image /*
