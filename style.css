@@ -1,22 +1,33 @@
 html{
     font-family:Helvetica, sans-serif;
-    background-color:#222222;
+    background-color:#434343;
 }
-h1.home-head{
+h1, h2{
     text-align: center;
-    color:#382dff;
+    color: #00c6cf;
+    font-size: 50px;
 }
 a{
-    color:#ad17ad;
+    color:#d3fbd8;
+}
+p, ul, ol {
+    color:#cccccc;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .recipe-selector{
     text-align: center;
     list-style-type: none;
     font-size:18px;
     line-height:40px;
+    padding: 0;
+    margin: 0;
 }
-img{
-    width: 100%;
-    align-self: center;
+.center-img {
+    width: 500px;
+    display: block;
+    margin: 0 auto;
 }
-/* fixing image /*
+/* add stylesheet to the other docs.
+center the bullets, img on phone, remove padding.
+*/
