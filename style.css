@@ -18,7 +18,7 @@ p, ul, ol {
 .recipe-selector{
     text-align: center;
     list-style-type: none;
-    font-size:18px;
+    font-size:22px;
     line-height:40px;
     padding: 0;
     margin: 0;
@@ -27,4 +27,18 @@ p, ul, ol {
     width: 500px;
     display: block;
     margin: 0 auto;
+}
+.recipe-box{
+    padding: 15px;
+    background-color:#00c6cf;
+    margin: 20px 600px;
+    box-sizing: border-box;
+}
+
+div.recipe-box:hover{
+    background-color:#00a5ae;
+}
+
+.recipe-link{
+    display: block;
 }
